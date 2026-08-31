@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "high_centrality_nodes",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osmid": 2841381808, "y": 20.2950886, "x": 85.8249639, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.11695668054642415 }, "geometry": { "type": "Point", "coordinates": [ 85.8249639, 20.2950886 ] } },
+{ "type": "Feature", "properties": { "osmid": 2277623719, "y": 20.2950357, "x": 85.8248731, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.11078274526992477 }, "geometry": { "type": "Point", "coordinates": [ 85.8248731, 20.2950357 ] } },
+{ "type": "Feature", "properties": { "osmid": 293466257, "y": 20.31475, "x": 85.82022, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.10978559427277376 }, "geometry": { "type": "Point", "coordinates": [ 85.82022, 20.31475 ] } },
+{ "type": "Feature", "properties": { "osmid": 8148670281, "y": 20.3078278, "x": 85.8202201, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.10101797063335526 }, "geometry": { "type": "Point", "coordinates": [ 85.8202201, 20.3078278 ] } },
+{ "type": "Feature", "properties": { "osmid": 4716027734, "y": 20.2582653, "x": 85.8415601, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.094438965592811758 }, "geometry": { "type": "Point", "coordinates": [ 85.8415601, 20.2582653 ] } },
+{ "type": "Feature", "properties": { "osmid": 4716027735, "y": 20.2581828, "x": 85.8414745, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.094384177076484777 }, "geometry": { "type": "Point", "coordinates": [ 85.8414745, 20.2581828 ] } },
+{ "type": "Feature", "properties": { "osmid": 3706276768, "y": 20.2547764, "x": 85.8017728, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.091915406530791152 }, "geometry": { "type": "Point", "coordinates": [ 85.8017728, 20.2547764 ] } },
+{ "type": "Feature", "properties": { "osmid": 3042737290, "y": 20.2980723, "x": 85.8239658, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.091541748849441162 }, "geometry": { "type": "Point", "coordinates": [ 85.8239658, 20.2980723 ] } },
+{ "type": "Feature", "properties": { "osmid": 2841381805, "y": 20.2993139, "x": 85.8235865, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.090503323836657171 }, "geometry": { "type": "Point", "coordinates": [ 85.8235865, 20.2993139 ] } },
+{ "type": "Feature", "properties": { "osmid": 2277623782, "y": 20.2955303, "x": 85.8247124, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.09028416977134926 }, "geometry": { "type": "Point", "coordinates": [ 85.8247124, 20.2955303 ] } },
+{ "type": "Feature", "properties": { "osmid": 8182316394, "y": 20.2955656, "x": 85.8247025, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.090229381255022292 }, "geometry": { "type": "Point", "coordinates": [ 85.8247025, 20.2955656 ] } },
+{ "type": "Feature", "properties": { "osmid": 8156905453, "y": 20.3146496, "x": 85.8201968, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.089529184016363506 }, "geometry": { "type": "Point", "coordinates": [ 85.8201968, 20.3146496 ] } },
+{ "type": "Feature", "properties": { "osmid": 8123911045, "y": 20.2847413, "x": 85.8078263, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.089317335086565863 }, "geometry": { "type": "Point", "coordinates": [ 85.8078263, 20.2847413 ] } },
+{ "type": "Feature", "properties": { "osmid": 3042737264, "y": 20.3147498, "x": 85.8203358, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.08658959748703339 }, "geometry": { "type": "Point", "coordinates": [ 85.8203358, 20.3147498 ] } },
+{ "type": "Feature", "properties": { "osmid": 5665459129, "y": 20.3066437, "x": 85.8208928, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.086443129520052606 }, "geometry": { "type": "Point", "coordinates": [ 85.8208928, 20.3066437 ] } },
+{ "type": "Feature", "properties": { "osmid": 293466216, "y": 20.3079128, "x": 85.8201813, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.086006282416538835 }, "geometry": { "type": "Point", "coordinates": [ 85.8201813, 20.3079128 ] } },
+{ "type": "Feature", "properties": { "osmid": 8154498079, "y": 20.314646, "x": 85.8203376, "street_count": 4, "junction": null, "highway": null, "centrality_score": 0.085933961574987228 }, "geometry": { "type": "Point", "coordinates": [ 85.8203376, 20.314646 ] } },
+{ "type": "Feature", "properties": { "osmid": 8156905418, "y": 20.3107297, "x": 85.8201242, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.08522572868726716 }, "geometry": { "type": "Point", "coordinates": [ 85.8201242, 20.3107297 ] } },
+{ "type": "Feature", "properties": { "osmid": 2393561249, "y": 20.2526742, "x": 85.8361731, "street_count": 3, "junction": null, "highway": null, "centrality_score": 0.085124187303674492 }, "geometry": { "type": "Point", "coordinates": [ 85.8361731, 20.2526742 ] } },
+{ "type": "Feature", "properties": { "osmid": 3725777494, "y": 20.3324387, "x": 85.8214541, "street_count": 5, "junction": null, "highway": null, "centrality_score": 0.084966761633428312 }, "geometry": { "type": "Point", "coordinates": [ 85.8214541, 20.3324387 ] } }
+]
+}

@@ -1,0 +1,3 @@
+model,RMSE,MAE
+Prophet,54.89,44.31
+SARIMA,63.85,50.77

@@ -1,0 +1,74 @@
+route_id,stop_id,dominant_type,total_daily_demand,demand_quartile,current_frequency,primary_flag,near_congestion_point
+R_SYN000,SYN000,hospital,464.32,Q3,Low,Increase Frequency,False
+R_SYN001,SYN001,bus_station,529.63,Q4,Low,Increase Frequency,False
+R_SYN002,SYN002,hospital,1509.02,Q4,Low,Increase Frequency,True
+R_SYN003,SYN003,hospital,638.42,Q4,Low,Increase Frequency,False
+R_SYN004,SYN004,hospital,696.48,Q4,High,Well-Served,False
+R_SYN005,SYN005,hospital,1799.2,Q4,High,Well-Served,False
+R_SYN006,SYN006,college,159.6,Q1,High,Adequate,False
+R_SYN007,SYN007,hospital,464.32,Q3,Low,Increase Frequency,False
+R_SYN008,SYN008,hospital,406.3,Q3,Low,Increase Frequency,False
+R_SYN009,SYN009,hospital,841.54,Q4,Low,Increase Frequency,False
+R_SYN010,SYN010,hospital,232.18,Q1,High,Adequate,False
+R_SYN011,SYN011,university,186.2,Q1,Low,Adequate,False
+R_SYN012,SYN012,hospital,232.18,Q1,Low,Adequate,False
+R_SYN013,SYN013,hospital,2060.38,Q4,High,Well-Served,False
+R_SYN014,SYN014,station,264.81,Q3,High,Well-Served,False
+R_SYN015,SYN015,mall,59.0,Q1,High,Adequate,False
+R_SYN016,SYN016,hospital,2785.88,Q4,Low,Increase Frequency,False
+R_SYN017,SYN017,hospital,696.48,Q4,Low,Increase Frequency,True
+R_SYN018,SYN018,hospital,406.3,Q3,Low,Increase Frequency,True
+R_SYN019,SYN019,hospital,1073.7,Q4,High,Well-Served,False
+R_SYN020,SYN020,hospital,464.32,Q3,Low,Increase Frequency,False
+R_SYN021,SYN021,hospital,232.18,Q1,High,Adequate,False
+R_SYN022,SYN022,college,704.9,Q4,High,Well-Served,False
+R_SYN023,SYN023,hospital,232.18,Q1,Low,Adequate,False
+R_SYN024,SYN024,hospital,696.48,Q4,Low,Increase Frequency,False
+R_SYN025,SYN025,hospital,232.18,Q1,Low,Adequate,False
+R_SYN026,SYN026,hospital,232.18,Q2,High,Adequate,False
+R_SYN027,SYN027,hospital,232.18,Q2,Low,Adequate,True
+R_SYN028,SYN028,mall,118.0,Q1,Low,Adequate,False
+R_SYN029,SYN029,hospital,899.6,Q4,High,Well-Served,False
+R_SYN030,SYN030,hospital,232.18,Q2,Low,Adequate,False
+R_SYN031,SYN031,hospital,232.18,Q2,High,Adequate,False
+R_SYN032,SYN032,hospital,580.4,Q4,High,Well-Served,False
+R_SYN033,SYN033,hospital,232.18,Q2,Low,Adequate,False
+R_SYN034,SYN034,hospital,464.32,Q3,Low,Increase Frequency,False
+R_SYN035,SYN035,hospital,232.18,Q2,Low,Adequate,False
+R_SYN036,SYN036,hospital,464.32,Q4,Low,Increase Frequency,False
+R_SYN037,SYN037,hospital,232.18,Q2,High,Adequate,False
+R_SYN038,SYN038,hospital,232.18,Q2,Low,Adequate,False
+R_SYN039,SYN039,hospital,232.18,Q2,Low,Adequate,False
+R_SYN040,SYN040,hospital,232.18,Q2,High,Adequate,False
+R_SYN041,SYN041,hospital,232.18,Q2,Low,Adequate,False
+R_SYN042,SYN042,hospital,232.18,Q2,High,Adequate,True
+R_SYN043,SYN043,hospital,812.52,Q4,Low,Increase Frequency,True
+R_SYN044,SYN044,hospital,464.32,Q4,High,Well-Served,False
+R_SYN045,SYN045,hospital,232.18,Q2,Low,Adequate,False
+R_SYN046,SYN046,hospital,232.18,Q2,Low,Adequate,False
+R_SYN047,SYN047,hospital,232.18,Q2,Low,Adequate,False
+R_SYN048,SYN048,hospital,232.18,Q2,Low,Adequate,False
+R_SYN049,SYN049,hospital,1450.94,Q4,High,Well-Served,True
+R_SYN050,SYN050,hospital,232.18,Q2,Low,Adequate,False
+R_SYN051,SYN051,hospital,232.18,Q2,Low,Adequate,False
+R_SYN052,SYN052,hospital,232.18,Q3,Low,Increase Frequency,False
+R_SYN053,SYN053,hospital,232.18,Q3,Low,Increase Frequency,False
+R_SYN054,SYN054,hospital,232.18,Q3,Low,Increase Frequency,True
+R_SYN055,SYN055,hospital,232.18,Q3,Low,Increase Frequency,True
+R_SYN056,SYN056,hospital,232.18,Q3,High,Well-Served,False
+R_SYN057,SYN057,hospital,232.18,Q3,High,Well-Served,False
+R_SYN058,SYN058,university,93.1,Q1,High,Adequate,False
+R_SYN059,SYN059,college,79.8,Q1,Low,Adequate,False
+R_SYN060,SYN060,university,93.1,Q1,Low,Adequate,False
+R_SYN061,SYN061,hospital,232.18,Q3,High,Well-Served,False
+R_SYN062,SYN062,bus_station,264.81,Q3,Low,Increase Frequency,False
+R_SYN063,SYN063,hospital,232.18,Q3,Low,Increase Frequency,False
+R_SYN064,SYN064,university,93.1,Q1,High,Adequate,False
+R_SYN065,SYN065,college,79.8,Q1,Low,Adequate,True
+R_SYN066,SYN066,college,79.8,Q1,High,Adequate,False
+R_SYN067,SYN067,hospital,232.18,Q3,Low,Increase Frequency,False
+R_SYN068,SYN068,mall,59.0,Q1,High,Adequate,False
+R_SYN069,SYN069,mall,59.0,Q1,Low,Adequate,True
+R_SYN070,SYN070,mall,59.0,Q1,Low,Adequate,False
+R_SYN071,SYN071,hospital,232.18,Q3,High,Well-Served,False
+R_SYN072,SYN072,marketplace,47.2,Q1,High,Adequate,True
