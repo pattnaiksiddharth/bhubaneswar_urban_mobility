@@ -18,8 +18,8 @@ import numpy as np
 import pandas as pd
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-PROC_DIR = PROJECT_ROOT / "data" / "processed"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+PROC_DIR = PROJECT_ROOT / "03_Data" / "processed"
 
 
 def main():

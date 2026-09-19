@@ -5,9 +5,9 @@ import geopandas as gpd
 
 # Resolve project root (urban-mobility-bbsr)
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
-INTERIM_DATA_DIR = PROJECT_ROOT / "data" / "interim"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+RAW_DATA_DIR = PROJECT_ROOT / "03_Data" / "raw"
+INTERIM_DATA_DIR = PROJECT_ROOT / "03_Data" / "interim"
 INTERIM_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 GRAPH_PATH = RAW_DATA_DIR / "bhubaneswar_road_network.graphml"

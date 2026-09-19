@@ -30,9 +30,9 @@ import pandas as pd
 
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-RAW_DIR = PROJECT_ROOT / "data" / "raw"
-PROC_DIR = PROJECT_ROOT / "data" / "processed"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+RAW_DIR = PROJECT_ROOT / "03_Data" / "raw"
+PROC_DIR = PROJECT_ROOT / "03_Data" / "processed"
 REPORTS_DIR = PROJECT_ROOT / "reports" / "figures"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 

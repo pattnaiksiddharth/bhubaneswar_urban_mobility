@@ -1,0 +1,106 @@
+
+========================================================================
+BHUBANESWAR URBAN MOBILITY – SQL QUERY RESULTS
+Database : C:\Users\HP\OneDrive\Desktop\BBSR\urban-mobility-bbsr\04_SQL_Analysis\bhubaneswar_mobility.db
+========================================================================
+
+
+==============  Q1 – Top 10 Stops by Total Daily Demand  ===============
+
+stop_id dominant_type  total_daily_demand demand_quartile       primary_flag
+ SYN016      hospital             2785.88              Q4 Increase Frequency
+ SYN013      hospital             2060.38              Q4        Well-Served
+ SYN005      hospital             1799.20              Q4        Well-Served
+ SYN002      hospital             1509.02              Q4 Increase Frequency
+ SYN049      hospital             1450.94              Q4        Well-Served
+ SYN019      hospital             1073.70              Q4        Well-Served
+ SYN029      hospital              899.60              Q4        Well-Served
+ SYN009      hospital              841.54              Q4 Increase Frequency
+ SYN043      hospital              812.52              Q4 Increase Frequency
+ SYN022       college              704.90              Q4        Well-Served
+
+  (10 rows returned)
+
+
+=============  Q2 – Route Count per Primary Flag Category  =============
+
+      primary_flag  route_count
+          Adequate           37
+Increase Frequency           22
+       Well-Served           14
+
+  (3 rows returned)
+
+
+=====  Q3 – Urgent Routes: Increase Frequency AND Near Congestion  =====
+
+route_id stop_id       primary_flag  near_congestion_point  total_daily_demand  net_daily_benefit
+R_SYN002  SYN002 Increase Frequency                      1             1509.02             -73.11
+R_SYN043  SYN043 Increase Frequency                      1              812.52           -1562.23
+R_SYN017  SYN017 Increase Frequency                      1              696.48           -1454.12
+R_SYN018  SYN018 Increase Frequency                      1              406.30            -458.62
+R_SYN054  SYN054 Increase Frequency                      1              232.18           -2181.60
+R_SYN055  SYN055 Increase Frequency                      1              232.18           -2446.80
+
+  (6 rows returned)
+
+
+===========  Q4 – Average Net Daily Benefit by Primary Flag  ===========
+
+      primary_flag  avg_net_daily_benefit  route_count
+Increase Frequency               -1734.27           22
+
+  (1 row returned)
+
+
+======  Q5 – Network Summary: Total Cost, Revenue & Net Benefit  =======
+
+ total_routes  total_daily_cost  total_daily_revenue  total_net_daily_benefit  avg_roi_ratio
+           22          68083.60             29929.63                -38153.97           0.47
+
+  (1 row returned)
+
+
+========  Q6 – Total Demand by Dominant Land-Use Type (Ranked)  ========
+
+dominant_type  total_demand  stop_count  avg_demand_per_stop
+     hospital      27801.50          55               505.48
+      college       1103.90           5               220.78
+  bus_station        794.44           2               397.22
+   university        465.50           4               116.38
+         mall        354.00           5                70.80
+      station        264.81           1               264.81
+  marketplace         47.20           1                47.20
+
+  (7 rows returned)
+
+
+===  Q7 – Actual vs Prophet Forecast: Last 15 Days (Absolute Error)  ===
+
+      date  actual_demand  prophet_forecast  absolute_error
+2026-03-01       21631.00          21656.37           25.37
+2026-02-28       21602.48          21657.11           54.63
+2026-02-27       31484.52          31397.60           86.92
+2026-02-26       31393.02          31393.75            0.73
+2026-02-25       31386.73          31395.89            9.16
+2026-02-24       31409.86          31361.72           48.14
+2026-02-23       31362.25          31330.84           31.41
+2026-02-22       21515.63          21605.00           89.37
+2026-02-21       21583.01          21605.74           22.73
+2026-02-20       31332.48          31346.23           13.75
+2026-02-19       31354.99          31342.38           12.61
+2026-02-18       31445.80          31344.52          101.28
+2026-02-17       31341.57          31310.35           31.22
+2026-02-16       31371.68          31279.47           92.21
+2026-02-15       21508.55          21553.63           45.08
+
+  (15 rows returned)
+
+
+=====  Q8 – Top 5 Routes by ROI Ratio (Positive Net Benefit Only)  =====
+
+route_id stop_id       primary_flag  roi_ratio  net_daily_benefit  daily_cost
+R_SYN016  SYN016 Increase Frequency       1.82            2831.03     3437.20
+R_SYN009  SYN009 Increase Frequency       1.12             208.66     1684.80
+
+  (2 rows returned)

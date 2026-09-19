@@ -29,10 +29,13 @@ import networkx as nx
 import pandas as pd
 from shapely.geometry import Point
 from sklearn.cluster import DBSCAN
+from pathlib import Path
 import numpy as np
 
-RAW_DIR = "data/raw"
-PROC_DIR = "data/processed"
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+RAW_DIR = PROJECT_ROOT / "03_Data" / "raw"
+PROC_DIR = PROJECT_ROOT / "03_Data" / "processed"
 
 # ---------------------------------------------------------------------------
 # STEP 0: Config — trip-generation weights per POI type (subjective, documented)
@@ -212,11 +215,11 @@ def main():
     demand_df = compute_hourly_demand(stops)
 
     print("Saving outputs...", flush=True)
-    stops.to_file(f"{PROC_DIR}/synthetic_stops.geojson", driver="GeoJSON")
-    routes.to_file(f"{PROC_DIR}/synthetic_routes.geojson", driver="GeoJSON")
-    demand_df.to_csv(f"{PROC_DIR}/stop_demand_weights.csv", index=False)
+    stops.to_file(PROC_DIR / "synthetic_stops.geojson", driver="GeoJSON")
+    routes.to_file(PROC_DIR / "synthetic_routes.geojson", driver="GeoJSON")
+    demand_df.to_csv(PROC_DIR / "stop_demand_weights.csv", index=False)
 
-    print("Done. Files written to data/processed/", flush=True)
+    print("Done. Files written to 03_Data/processed/", flush=True)
 
 
 if __name__ == "__main__":

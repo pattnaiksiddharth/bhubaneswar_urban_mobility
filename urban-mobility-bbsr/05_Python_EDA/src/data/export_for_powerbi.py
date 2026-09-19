@@ -19,9 +19,9 @@ from prophet import Prophet
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-PROC_DIR = PROJECT_ROOT / "data" / "processed"
-DASHBOARD_DIR = PROJECT_ROOT / "data" / "dashboard"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+PROC_DIR = PROJECT_ROOT / "03_Data" / "processed"
+DASHBOARD_DIR = PROJECT_ROOT / "03_Data" / "dashboard"
 DASHBOARD_DIR.mkdir(parents=True, exist_ok=True)
 
 

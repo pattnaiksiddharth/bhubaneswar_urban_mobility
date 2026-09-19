@@ -5,8 +5,8 @@ import geopandas as gpd
 
 # Resolve project root (urban-mobility-bbsr)
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+RAW_DATA_DIR = PROJECT_ROOT / "03_Data" / "raw"
 RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 PLACE_NAME = "Bhubaneswar, Odisha, India"

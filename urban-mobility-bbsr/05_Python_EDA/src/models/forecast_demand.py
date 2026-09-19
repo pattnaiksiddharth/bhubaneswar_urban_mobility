@@ -20,8 +20,8 @@ from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
-PROC_DIR = PROJECT_ROOT / "data" / "processed"
+PROJECT_ROOT = SCRIPT_DIR.parents[2]
+PROC_DIR = PROJECT_ROOT / "03_Data" / "processed"
 REPORTS_DIR = PROJECT_ROOT / "reports" / "figures"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
